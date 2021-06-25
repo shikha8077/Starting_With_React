@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Employee from "./components/Employee";
+import Products from "./components/Products";
+import Emp from "./components/Emp";
+import EMP2 from "./components/Emp2";
+import Btn from "./components/ButtonClick";
+import Basket from "./components/Basket";
+import AddNumber from "./components/AddNumber";
+import ProductDetails from "./components/ProductDetails";
+import ProductTable from "./components/ProductTable";
+import PriceData from "./components/PriceData";
+import Movies from "./components/Movies";
+import CreateCode from "./components/CreateCode";
+import CreateComplex from "./components/CreateComplex";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>my app</h2>
+      {/* <Employee /> */}
+      {/* <Products /> */}
+      {/* <Emp /> */}
+      {/* <EMP2 /> */}
+      {/* <Btn /> */}
+      {/* <Basket /> */}
+      {/* <AddNumber /> */}
+      {/* <ProductDetails /> */}
+      {/* <ProductTable /> */}
+      {/* <PriceData /> */}
+      {/* <Movies /> */}
+      {/* <CreateCode /> */}
+      <CreateComplex />
     </div>
   );
 }
